@@ -12,6 +12,7 @@
 		B55F89911F9274B60034199F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55F898F1F9274B60034199F /* Main.storyboard */; };
 		B55F89931F9274B60034199F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55F89921F9274B60034199F /* Assets.xcassets */; };
 		B55F89961F9274B60034199F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55F89941F9274B60034199F /* LaunchScreen.storyboard */; };
+		B55F899F1F9285E30034199F /* arbreDeGit.png in Resources */ = {isa = PBXBuildFile; fileRef = B55F899E1F9285E30034199F /* arbreDeGit.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B55F89921F9274B60034199F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B55F89951F9274B60034199F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B55F89971F9274B60034199F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55F899E1F9285E30034199F /* arbreDeGit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arbreDeGit.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		B55F898A1F9274B60034199F /* git-premiers-pas */ = {
 			isa = PBXGroup;
 			children = (
+				B55F899D1F9285D10034199F /* Images */,
 				B55F898B1F9274B60034199F /* AppDelegate.swift */,
 				B55F898D1F9274B60034199F /* ViewController.swift */,
 				B55F898F1F9274B60034199F /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				B55F89971F9274B60034199F /* Info.plist */,
 			);
 			path = "git-premiers-pas";
+			sourceTree = "<group>";
+		};
+		B55F899D1F9285D10034199F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B55F899E1F9285E30034199F /* arbreDeGit.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			files = (
 				B55F89961F9274B60034199F /* LaunchScreen.storyboard in Resources */,
 				B55F89931F9274B60034199F /* Assets.xcassets in Resources */,
+				B55F899F1F9285E30034199F /* arbreDeGit.png in Resources */,
 				B55F89911F9274B60034199F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
