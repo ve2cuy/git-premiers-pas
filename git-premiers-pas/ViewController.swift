@@ -4,7 +4,7 @@
 //
 //  Created by Alain on 17-10-14.
 //  Copyright © 2017 Alain. All rights reserved.
-//
+//  --> Ligne modifiée à partir de gitHub <--
 
 import UIKit
 
